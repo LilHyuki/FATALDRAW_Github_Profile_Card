@@ -59,12 +59,12 @@ const BOUNTY_MULTIPLIER = {
 };
 
 const RANK_THRESHOLDS = [
-  { score: 30000000, grade: 'S+', color: '#d32f2f' },
-  { score: 15000000, grade: 'S',  color: '#c62828' },
-  { score: 10000000, grade: 'A',  color: '#e65100' },
-  { score: 5000000,  grade: 'B',  color: '#f9a825' },
-  { score: 1000000,  grade: 'C',  color: '#2e7d32' },
-  { score: 0,        grade: 'D',  color: '#455a64' },
+  { score: 0, grade: 'S+', color: '#d32f2f' },
+  { score: -1, grade: 'S',  color: '#c62828' },
+  { score: -1, grade: 'A',  color: '#e65100' },
+  { score: -1,  grade: 'B',  color: '#f9a825' },
+  { score: -1,  grade: 'C',  color: '#2e7d32' },
+  { score: -1,        grade: 'D',  color: '#455a64' },
 ];
 
 function loadFileAsBase64(filePath) {
